@@ -15,4 +15,8 @@ public class DemoController {
     public DemoRepresentation demo() {
         return new DemoRepresentation("Hello world!");
     }
+
+    public void finalize() {
+
+    }
 }
