@@ -16,7 +16,7 @@ public class DemoControllerTest {
 
     @Test
     public void shouldReturnMessage() {
-        assertThat(testSubject.demo().getMessage()).isEqualTo("Hello world!");
+        assertThat(testSubject.demo().getMessage()).isEqualTo("Hello world!!!");
     }
 
 }
