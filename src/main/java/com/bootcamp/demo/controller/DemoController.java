@@ -13,8 +13,6 @@ public class DemoController {
     @GetMapping(produces = "application/json")
     @ResponseBody
     public DemoRepresentation demo() {
-        String unusedVariable = "I am unused";
-
         return new DemoRepresentation("Hello world!");
     }
 }
