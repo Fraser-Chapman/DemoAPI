@@ -16,7 +16,4 @@ public class DemoController {
         return new DemoRepresentation("Hello world!");
     }
 
-    public void finalize() {
-
-    }
 }
